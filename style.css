@@ -1,0 +1,58 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+
+
+.avatar img {
+    margin-left: 1000px;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.avatar-frame {
+    position: relative;
+    border: 1px solid black;
+}
+
+.avatar-frame img {
+    width: 220px;
+}
+
+.hair-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* filter: hue-rotate(180deg); */
+}
+
+
+.shirt-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pants-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.selected {
+    border: 1px solid red;
+}
+
+.color{
+    display: none;
+}
+
+.active {
+    display: block;
+}
